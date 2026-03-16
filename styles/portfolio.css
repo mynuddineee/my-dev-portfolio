@@ -189,3 +189,33 @@ main section{
 .btn-primary{
   width: 200px;
 }
+
+/* footer-styles */
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 117px;
+}
+.footer-column{
+  width: 50%;
+}
+.footer-description{
+  color: #474747;
+  font-size: 16px;
+}
+
+footer input[type="text"], footer input[type="email"], footer textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 18px 30px;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+.footer-btn{
+  width: 150px;
+  height: 64px;
+}
