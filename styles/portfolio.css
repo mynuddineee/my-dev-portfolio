@@ -33,7 +33,13 @@
 }
 .first-btn{
   width: 200px;
-  
+  margin-right: 30px;
+}
+.second-btn{
+  background-color: #FFF8F3;
+  color: #FD6E0A;
+  border: 1px solid #FD6E0A;
+  width: 160px;
 }
 .section-title{
   font-size: 35px;
@@ -148,4 +154,38 @@ main section{
   margin-top: 50px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section styles */
+.resume-container{
+  display: flex;
+  gap: 24px;
+}
+
+.experience-title{
+  font-weight: bold;
+  font-size: 25px;
+  color: #474747;
+  /* margin-bottom: 10px; */
+}
+
+.experience-sub-title{
+  font-weight: 600px;
+  font-size: 20px;
+  color: #757575;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.experience-description{
+  font-size: 16px;
+  color: #757575;
+}
+
+/* CV download */
+.Download-resume{
+  margin-top: 50px;
+}
+.btn-primary{
+  width: 200px;
 }
