@@ -213,6 +213,7 @@ footer input[type="text"], footer input[type="email"], footer textarea{
   padding: 18px 30px;
   margin-bottom: 24px;
   font-size: 16px;
+  border: none;
 }
 
 .footer-btn{
